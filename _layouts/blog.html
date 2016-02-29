@@ -1,0 +1,23 @@
+---
+layout: default-news
+---
+<div class="container">
+  <div class="row">
+
+   <div class="eight columns">
+       <note>
+         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+       </note>
+       <h4 class="post">
+          <strong>
+            {{ page.title }}
+          </strong>
+        </h4>
+        <article class="maincontent">
+          {{ content }}
+        </article>
+    </div>
+    <div class="four columns" style="margin-top:0">
+      {% include side1.html %}
+    </div>
+  </div>

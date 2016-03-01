@@ -1,11 +1,49 @@
 module Jekyll
+  class ThumbTag < Liquid::Tag
+
+    def initialize(tag_name, markup, tokens)
+      super
+      @class = 'th'
+      @src = ''
+      @alt = 'Altcoin Trading'
+      @caption = nil #not required
+
+      if markup =~ /(\S.*\s+)?(page.image\[\d\])(\s+page.image_alt\[\d\])?(\s+page.image_caption\[\d\])?/
+        @class = $1
+        @src = $2
+        @alt = $3
+        @caption = $4
+      end
+    end
+
+    def render(context)
+      @class = Liquid::Template.parse("{{ #{@class} }}").render(context)
+      @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
+      @alt = Liquid::Template.parse("{{ #{@alt} }}").render(context)
+      @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
+      @site_url = Liquid::Template.parse("{{ site.image_url }}").render(context)
+
+      amp = "<figure class=\"th\"><amp-img itemprop=\"image\" "
+      amp += "src=\"#{@site_url}#{@src}\" alt=\"#{@alt}\" layout=\"responsive\" width=\"70px\" height=\"36px\"  >"
+      amp += "</amp-img></figure>"
+#480 854
+    end
+  end
+end
+
+Liquid::Template.register_tag('thumb', Jekyll::ThumbTag)
+
+
+
+
+module Jekyll
   class Amp700Tag < Liquid::Tag
 
     def initialize(tag_name, markup, tokens)
       super
-      @class = nil #not required
+      @class = 'border'
       @src = ''
-      @alt = 'BestBitcoinExchange'
+      @alt = 'Altcoin Trading'
       @caption = nil #not required
 
       if markup =~ /(\S.*\s+)?(page.image\[\d\])(\s+page.image_alt\[\d\])?(\s+page.image_caption\[\d\])?/
@@ -19,6 +57,7 @@ module Jekyll
 
     def render(context)
       # making sure that liquid tags referencing the front matter are parsed as liquid tags
+      @class = Liquid::Template.parse("{{ #{@class} }}").render(context)
       @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
       @alt = Liquid::Template.parse("{{ #{@alt} }}").render(context)
       @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
@@ -26,9 +65,9 @@ module Jekyll
 
 
       if @class
-        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\"><figure class=\"#{@class}\"><amp-img itemprop=\"image\" "
+        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
       else
-        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\"><figure class=\"post\"><amp-img itemprop=\"image\" "
+        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
       end
 
       amp += "src=\"#{@site_url}#{@src}\" alt=\"#{@alt}\" layout=\"responsive\" width=\"700px\" height=\"360px\" >" #width=\"520px\" height=\"270px\"
@@ -41,24 +80,6 @@ end
 Liquid::Template.register_tag('amp700', Jekyll::Amp700Tag)
 
 
-#
-#   image:
-#     - path/to/image
-#     - path/to/another-image
-#
-# Make sure to have an image host specified in the _config.yml file:
-#
-#   image_url: http://images.example.com/
-#
-# Syntax:
-# {% amp-img [class name(s)] /path/to/image 'alt text' ['caption text'] %}
-#
-# Sample (typical use):
-# {% amp-img left {{ page.image[0] }} {{ page.image_alt[0] }} {{ page.image_caption[0] }} %}
-#
-
-
-
 
 module Jekyll
   class AmpDoubleTag < Liquid::Tag
@@ -67,7 +88,7 @@ module Jekyll
       super
       @class = nil #not required
       @src = ''
-      @alt = 'BestBitcoinExchange'
+      @alt = 'Altcoin Trading'
 
       if markup =~ /(\S.*\s+)?(page.image\[\d\])(\s+page.image_alt\[\d\])?(\s+page.tall\[\d\])?/
         @class = $1
@@ -106,7 +127,7 @@ module Jekyll
       super
       @class = nil #not required
       @src = ''
-      @alt = 'BestBitcoinExchange'
+      @alt = 'Altcoin Trading'
 
       if markup =~ /(\S.*\s+)?(page.image\[\d\])(\s+page.image_alt\[\d\])?(\s+page.tall\[\d\])?/
         @class = $1

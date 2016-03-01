@@ -1,16 +1,16 @@
 ---
 layout: page
-title: "arbitrage trading"
-description: "How to arbitrage trade altcoins and also all info on trade bots."
-permalink: /category/arbitrage/
+title: "altcoin wallets"
+description: "Where to keep altcoin safely? There are hardware wallets for altcoins already!"
+permalink: /category/wallets/
 ---
 
-<h4 class="exa">All posts related to <b>bitcoin arbitrage</b> or <b>altcoin arbitrage</b></h4>
+<h4 class="exa">All posts related to <b>altcoin wallets</b></h4>
 
-<span id="note">"Arbitrage Trading"</span>
+<span id="note">"Altcoin wallets"</span>
 
 {% for post in site.posts %}
-  {% if post.category contains "arbitrage" or post.categories contains "arbitrage" %}
+  {% if post.category contains "wallets" or post.categories contains "wallets" %}
   <h4 class="post">
   <strong>
   <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
@@ -22,3 +22,5 @@ permalink: /category/arbitrage/
   </p>
   {% endif %}
 {% endfor %}
+
+{{ site.ads.trezor }}

@@ -15,6 +15,21 @@ h6 {
     font-family: 'Slabo 27px', serif;
 }
 
+.maincontent h3 {
+  margin-top: 0px;
+  background: rgba(122, 131, 141, 0.64);
+  color: #fff;
+  padding: 5px 10px 3px;
+  margin-left: -10px;
+  font-size: 2.3rem;
+}
+.maincontent p a{
+  border-bottom: 2px solid #7A838D;
+}
+.maincontent img a{
+  border-bottom: 0px solid #7A838D;
+}
+
 h4.post {
     margin-top: 0px;
     background: #7A838D;
@@ -210,6 +225,12 @@ figure.post {
     max-width: 100%!important;
     margin: 0 0 30px;
 }
+figure.border {
+max-width: 100%!important;
+margin: 0 0 30px;
+border: 2px dotted #7A838D;
+}
+
 .footer{
 line-height: 50px;
 border-top: 2px solid #7A838D;

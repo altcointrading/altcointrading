@@ -3,8 +3,8 @@ title: "Altcoin Trading"
 subtitle: "The forex of cryptocurrencies, bitcoin as the base."
 description: "Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency."
 baseurl: ""
-url: "https://www.altcointrading.net"
-#url: "http://127.0.0.1:4000"
+#url: "https://www.altcointrading.net"
+url: "http://127.0.0.1:4000"
 author: "AltcoinTrading"
 # Build settings
 markdown: kramdown

@@ -27,12 +27,14 @@ Fees are beautiful - 0.1% on maker orders, 0.2% on taker orders, 15% on margin s
 
 {% aff - Click this link to get 10% off fees on Bitfinex for your first month https://www.bitfinex.com/?refcode=5egV78YtlC %}
 
-### Virtual credit card - 25% off
+### Virtual credit card Wirex (E-Coin) - 25% off
 
-Virtual credit cards are convenient if you want to spend fiat money fast or if you want to sell bitcoin without AML/KYC or trusting someone on LocalBitcoins. With a VCC you simply send in the coins, wait for 6 confirmations and use the Bitcoin to top up your virtual or plastic card.
+Virtual credit cards are convenient if you want to spend fiat money fast or if you want to sell bitcoin without AML/KYC or trusting someone on LocalBitcoins. With a VCC you simply send in the coins, wait for 6 confirmations and use the bitcoin to top up your virtual or plastic card.
 
-What you get with E-coin is a regular Master Card, it is a prepaid card though. Be aware that some merchants don't accept prepaid cards. You can still use it to verify your PayPal or Skrill wallets. It comes handy if you want to get your bitcoin earnings into PayPal money but don't want to trust a third party or, again, LocalBitcoins. 
+While with Shift card (by Coinbase) you are only able to top up bitcoin that is exchanged to fiat as you make a card payment, **with Wirex you can sell your bitcoins when the price is high enough and hold the fiat until you decide to spend it**.
 
-Virtual credit card is available both in online and plastic version. On E-coin you will only be able to verify a plastic card. The card can be sent to an address that is different from the one you verify it for which is convenient if you travel.
+What you get with Wirex is a regular Master Card, it is a prepaid card though. Be aware that some merchants don't accept prepaid cards. You can still use it to verify your PayPal or Skrill wallets. It comes handy if you want to get your bitcoin earnings into PayPal money but don't want to trust a third party or, again, LocalBitcoins.
 
-{% aff - Get 25% off with the following link https://www.e-coin.io/?ref=8dc1bab8343c41049b4cb7a2f1e47b4e %}
+Virtual credit card is available both in online and plastic version. On Wirex you will only be able to verify a plastic card. The card can be sent to an address that is different from the one you verify it for. That is convenient if you travel.
+
+{% aff - Get 25% off with this link https://www.e-coin.io/?ref=8dc1bab8343c41049b4cb7a2f1e47b4e %}

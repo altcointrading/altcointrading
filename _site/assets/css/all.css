@@ -241,6 +241,12 @@ border: 2px dotted #7A838D;
 .notopmargin {
   margin-top:0;
 }
+.shifted-left{
+  margin-left: -10px;
+}
+.text-center{
+  text-align:center;
+}
 
 .footer{
 line-height: 50px;

@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Mar 2016 16:03:14 +0100</pubDate>
-    <lastBuildDate>Sun, 06 Mar 2016 16:03:14 +0100</lastBuildDate>
+    <pubDate>Sun, 06 Mar 2016 16:31:12 +0100</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 16:31:12 +0100</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
@@ -295,7 +295,7 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;Trezor&lt;/a&gt; on the other hand supports Electrum wallet which also has Dash and Litecoin integration. There is a full &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;Trezor&lt;/a&gt; integration now so you can hold bitcoins, litecoins and dash on a single &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;Trezor&lt;/a&gt; device.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div style=&quot;margin-left: -10px;&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;&lt;img src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; title=&quot;Trezor Wallet for bitcoins and altcoins&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;&lt;img src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; title=&quot;Trezor Wallet for bitcoins and altcoins&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;electrum-for-litecoin&quot;&gt;Electrum for Litecoin&lt;/h4&gt;
 

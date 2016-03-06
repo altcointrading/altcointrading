@@ -158,6 +158,9 @@ nav ul ul li a {
 ul.divided li {
     list-style-type: none
 }
+ul.divided li div {
+  text-align:center;
+}
 
 #sidebar h3,
 #sidebar h3 a {
@@ -229,6 +232,10 @@ figure.border {
 max-width: 100%!important;
 margin: 0 0 30px;
 border: 2px dotted #7A838D;
+}
+
+.notopmargin {
+  margin-top:0;
 }
 
 .footer{

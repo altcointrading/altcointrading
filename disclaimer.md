@@ -49,7 +49,7 @@ If there are any questions regarding this privacy policy you may contact us usin
 <br/>
 <span class="contacticon center">
 	<a href="mailto:altcointrading@openmailbox.org"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com/altcointrading" target="\_blank"><i class="fa fa-github-square"></i></a>
+	<a href="https://github.com/altcointrading" target="_blank"><i class="fa fa-github-square"></i></a>
 </span>
 
 <div class="col three caption">

@@ -22,3 +22,6 @@ permalink: /category/arbitrage/
   </p>
   {% endif %}
 {% endfor %}
+
+
+{{ site.ads.pm2 }}

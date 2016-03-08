@@ -20,7 +20,7 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
-update: 2016-02-29
+update: 2016-03-06
 ---
 
 So you want to join the madness and start trading altoins?
@@ -50,6 +50,7 @@ I use VPN at all times as a general security measure and it is fine with any of 
 The only thing worth mentioning is probably to distribute your bankroll on several exchanges. Don't trade a lot of money on a single account if you don't want to go through verification.
 
 [Up](#)
+
 
 ###Best Altcoin Trading Liquidity
 
@@ -82,6 +83,9 @@ Also: When signing up you need to certify you are not from US, Indonesia or othe
 
 
 
+{{ site.ads.pm2 }}
+
+
 #### Poloniex (most altcoins)
 
 {% amp700 border {{page.image[6]}} {{page.image_alt[6]}} %}
@@ -103,9 +107,9 @@ Definitely the best choice is you are looking to trade small altcoins, not only 
 
 [Up](#)
 
-###Other Big Names (LTC)
+###Other Big Names
 
-#### Bitfinex
+#### Bitfinex (LTC)
 
 {% amp700 {{border}} {{page.image[0]}} {{page.image_alt[0]}} %}
 
@@ -129,13 +133,21 @@ On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} bitcoin depos
 
 **Special offer - Sign up with {% aff this link https://www.bitfinex.com/?refcode=5egV78YtlC %} to get 10% discount on Bitfinex fees!**
 
-#### BTC-e
+#### BTC-e (many altcoins)
 
 {% amp700 border {{page.image[4]}} {{page.image_alt[4]}} %}
 
 {% aff BTC-e https://btc-e.com %} is most likely based in Russia but no official info is given. They are now the oldest exchange, operating since 2011 without scams.
 
-* Policies: ID verification only with wire transfers. The exchange also has no liability for losses. Have a 2FA, please.
+* Policies: ID verification only for fiat deposits or withdrawal. To deposit an altcoin, trade it in any way, and withdraw more altcoin goes without verification.
+
+* The BTC-e exchange has no liability for losses. Have a 2FA, please.
+
+*  The presently supported payment methods are:
+  * US Bank Wire, EU Bank Wire (SEPA)
+  * Visa, Mastercard
+  * {% aff PerfectMoney https://perfectmoney.is/?ref=7622697 %}
+  * Liqpay.com, unikarta.com, WebCreds.com, Ukash.com, Webmoney.ru
 
 * Good selection of lively altcoin markets involving coins like LTC, NVC, PPC and NMC. Markets are quite big.
 
@@ -144,7 +156,7 @@ On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} bitcoin depos
 * {% aff Fees https://btc-e.com/page/2 %}
   * Trade: Flat 0.2%
   * Deposit: Any crypto for **free**
-  * Withdrawal: Any crypto has fee of **0.001 coin**
+  * Withdrawal: Any crypto has fee of **0.001 coin** (quite high). Fees on fiat withdrawals change with method but generally are quite high compared to the industry levels.
 
 * Mobile trading: TabTrader
 

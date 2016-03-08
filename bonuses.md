@@ -14,6 +14,13 @@ That said, we do try businesses that are still no-name and new. It is probably a
 
 _________________
 
+
+### Free credit for cloud hosting for your trading servers or websites about trading
+
+{% aff DigitalOcean https://m.do.co/c/5ae2def361e8 %} giveth you 10 USD and {% aff Vultr https://www.vultr.com/freetrial/?ref=6873921 %} 50 USD in free credit.
+
+I didn't want to say trading _bot_ in the title as server people tend to see bot as something inherently malicious. But yeah you can run trading bot on a VPS.
+
 ### Bitfinex referral code - 10% off fees
 
 Bitfinex is one of the largest bitcoin exchanges out there. It has the largest BTCUSD volume, pretty much only chinese exchanges are bigger. The company was founded by iFinex and is legally based in Hong Kong.

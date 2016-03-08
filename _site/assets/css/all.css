@@ -256,6 +256,8 @@ font-size: 80%;
 .contacticon .center {font-size: 30px;
     text-align: center;
     display: block;}
+
+figure.chart {margin:1.5em 0}
 /* Media Queries */
 /* Larger than mobile */
 @media (min-width: 400px) {}

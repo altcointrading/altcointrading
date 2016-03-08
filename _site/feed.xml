@@ -5,9 +5,76 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Mar 2016 16:35:18 +0100</pubDate>
-    <lastBuildDate>Sun, 06 Mar 2016 16:35:18 +0100</lastBuildDate>
+    <pubDate>Tue, 08 Mar 2016 20:34:35 +0100</pubDate>
+    <lastBuildDate>Tue, 08 Mar 2016 20:34:35 +0100</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>Earning More of a Coin: Interests and Lending</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/lending/poloniex-bot.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/lending/poloniex-bot.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Automatic bitcoin lending with Poloniex bot.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Feeling &lt;em&gt;tilted&lt;/em&gt;? Seriously, because trading altcoins can sometimes feel more like gamble.&lt;/p&gt;
+
+&lt;p&gt;Putting all eggs in one basket can have very bad consequences but so can panic selling at every movement. Altcoins are volatile right now, if you are in an non-leveraged position you sometimes need to keep calm, hold on and wait for the price to get where you need it. For a day trader who is after fast profits this can be hard.&lt;/p&gt;
+
+&lt;p&gt;If you don’t feel like playing the coin game right now but you still want your money to earn something, keep reading.&lt;/p&gt;
+
+&lt;h4 id=&quot;poloniex-lending&quot;&gt;Poloniex lending&lt;/h4&gt;
+
+&lt;p&gt;That’s right, a nice way to earn daily interest rate on coins that you are not planning to risk at the moment. The lowest possible loan period is 2 days so don’t worry that your coins will sit somewhere for 2 months. They might but it’s not necessary.&lt;/p&gt;
+
+&lt;p&gt;Now, the title says Poloniex. Bitfinex has the same system of margin funding as Poloniex - your money is provided by other users who placed a loan offer for a daily interest rate that was lower than the maximum IR you specified.&lt;/p&gt;
+
+&lt;p&gt;The difference for you as a lender is that Poloniex is altcoin exchange and people borrow tons of bitcoin. Bitfinex is a bitcoin exchange where people mostly want to borrow dollars. That’s why interest rate on Bitfinex can be as much as 50x lower than on Poloniex. You read that right.&lt;/p&gt;
+
+&lt;p&gt;Sure thing more people are earning on Poloniex now which means you will need some unfair advantage, like a lending bot.&lt;/p&gt;
+
+&lt;h4 id=&quot;lending-bot-for-poloniex&quot;&gt;Lending bot for Poloniex&lt;/h4&gt;
+
+&lt;p&gt;Well the very first thing is you want to set up an account on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://poloniex.com&quot;&gt;Poloniex.com&lt;/a&gt;. Even if you have one already, it might be better to set up a new one for lending only. After all, with the lending bot you are having your API key and secret in a text file in plain text on your normal day-to-day computer.&lt;/p&gt;
+
+&lt;p&gt;As a second thing you need to transfer some bitcoin to Poloniex and as it comes, transfer it from exchange wallet to lending wallet. The lending bot will get your available lending balance and split it into smaller chunks that will be offered at a few different rates.&lt;/p&gt;
+
+&lt;p&gt;Installing the bot is really easy if you are on Linux. Just clone &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://github.com/Mikadily/poloniexlendingbot&quot;&gt;this Github repo&lt;/a&gt; and run the pythin script. If you are on Windows, &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://github.com/Mikadily/poloniexlendingbot/blob/master/README.md&quot;&gt;RTFM&lt;/a&gt;. It is a command line script and it doesn’t need a lot of resources, you can run it even from a pretty weak laptop.&lt;/p&gt;
+
+&lt;p&gt;On the first run the lending bot will ask you to edit a config file. Copypaste your API key and secret from &lt;em&gt;Settings &amp;gt; API keys&lt;/em&gt; on Poloniex. Further down in the file change the minimum acceptable daily interest rate, the default value is too low.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/lending/poloniex-bot.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/lending/poloniex-bot.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you start the bot it keeps waiting and calling the exchange every 60 seconds. If there is some money returned to your lending wallet it will attempt to lend them. It makes a lot of offers that are too high to be immediately filled you have to wait a few minutes.&lt;/p&gt;
+
+&lt;p&gt;You have much better chance to hit the spikes with the bot than by manually reloading the order book in web backend.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/lending/taken.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/lending/taken.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can kill the bot once your money is borrowed. It only places the orders, you don’t have to keep it running at all times. Although it is better to keep the bot running because it will attempt to lend any money that returns into your lending wallet.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-much-you-earn-on-bitcoin-lending&quot;&gt;How much you earn on bitcoin lending?&lt;/h4&gt;
+
+&lt;p&gt;It is quite a passive income but don’t expect too much unless you have a lot of coin to lend.&lt;/p&gt;
+
+&lt;p&gt;Nowadays quite a normal interest rate is around 0.3% daily. You will pick up some spikes but you cannot count on them. Also, you will probably switch off the bot some times and your money will not be provided at all times.&lt;/p&gt;
+
+&lt;p&gt;Daily interest on bitcoin loans of 0.3% will in ideal case give you about 9% monthly, which minus 15% Poloniex fee is some 7.65%.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you (realistically) earn 5% netto per month, you still only earn 0.5 BTC on each 10 BTC you lend.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can lend out LTC and other coins too on Poloniex but expect much lower interest rates.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;Up&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Mar 2016 00:00:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/lending/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/lending/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Best Altcoin Exchanges, Tried and True</title>
@@ -87,6 +154,8 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://perfectmoney.is/?ref=7622697&quot;&gt;&lt;img alt=&quot;Perfect Money&quot; src=&quot;/img/ads/pm2.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
 &lt;h4 id=&quot;poloniex-most-altcoins&quot;&gt;Poloniex (most altcoins)&lt;/h4&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/exchanges/poloniex.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/exchanges/poloniex.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
@@ -115,9 +184,9 @@
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;Up&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;other-big-names-ltc&quot;&gt;Other Big Names (LTC)&lt;/h3&gt;
+&lt;h3 id=&quot;other-big-names&quot;&gt;Other Big Names&lt;/h3&gt;
 
-&lt;h4 id=&quot;bitfinex&quot;&gt;Bitfinex&lt;/h4&gt;
+&lt;h4 id=&quot;bitfinex-ltc&quot;&gt;Bitfinex (LTC)&lt;/h4&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/exchanges/bitfinex.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/exchanges/bitfinex.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -149,7 +218,7 @@
 
 &lt;p&gt;&lt;strong&gt;Special offer - Sign up with &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;this link&lt;/a&gt; to get 10% discount on Bitfinex fees!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;btc-e&quot;&gt;BTC-e&lt;/h4&gt;
+&lt;h4 id=&quot;btc-e-many-altcoins&quot;&gt;BTC-e (many altcoins)&lt;/h4&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/exchanges/btce.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/exchanges/btce.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -157,7 +226,17 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Policies: ID verification only with wire transfers. The exchange also has no liability for losses. Have a 2FA, please.&lt;/p&gt;
+    &lt;p&gt;Policies: ID verification only for fiat deposits or withdrawal. To deposit an altcoin, trade it in any way, and withdraw more altcoin goes without verification.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The BTC-e exchange has no liability for losses. Have a 2FA, please.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The presently supported payment methods are:&lt;/li&gt;
+  &lt;li&gt;US Bank Wire, EU Bank Wire (SEPA)&lt;/li&gt;
+  &lt;li&gt;Visa, Mastercard&lt;/li&gt;
+  &lt;li&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://perfectmoney.is/?ref=7622697&quot;&gt;PerfectMoney&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Liqpay.com, unikarta.com, WebCreds.com, Ukash.com, Webmoney.ru&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Good selection of lively altcoin markets involving coins like LTC, NVC, PPC and NMC. Markets are quite big.&lt;/p&gt;
@@ -169,7 +248,7 @@
     &lt;ul&gt;
       &lt;li&gt;Trade: Flat 0.2%&lt;/li&gt;
       &lt;li&gt;Deposit: Any crypto for &lt;strong&gt;free&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;Withdrawal: Any crypto has fee of &lt;strong&gt;0.001 coin&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;Withdrawal: Any crypto has fee of &lt;strong&gt;0.001 coin&lt;/strong&gt; (quite high). Fees on fiat withdrawals change with method but generally are quite high compared to the industry levels.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Mobile trading: TabTrader&lt;/li&gt;
@@ -284,6 +363,8 @@
 
 &lt;p&gt;&lt;em&gt;Image: Electrum wallet supports altcoins too.&lt;/em&gt;&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;You must be reading this all the time, but still: Never keep untrader coins on an exchange and never send coins from one exchange to another.&lt;/p&gt;
 
 &lt;h4 id=&quot;hardware-altcoin-wallets&quot;&gt;Hardware Altcoin Wallets&lt;/h4&gt;
@@ -322,9 +403,92 @@
     
       <item>
         <title>Trading Bots: Where to run a trading bot?</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/ethbtc-feb.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/ethbtc-feb.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/bot/do.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/bot/do.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Like it or not, you might need to get a VPS.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Trading bots are very good for swing trading and for arbitrage trading. A good bot can be set up with API keys from multiple exchanges and can actually do arbitrage for you.&lt;/p&gt;
+
+&lt;p&gt;Right now for instance it looks like buying altcoins on Poloniex and selling on BitTrex or HitBTC (for bitcoin) might be a way to go. A good, configurable trading bot will do the mundane work of arbitrage for you.&lt;/p&gt;
+
+&lt;p&gt;But such a bot has a disadvantage: It will probably have a heavy user interface and it will need a lot of RAM.&lt;/p&gt;
+
+&lt;p&gt;If you are on a Mac or Linux machine, don’t expect to run a trading bot in a virtual box unless you have a super duper machine.Consider the specifications for &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.haasonline.com/?ref=49&quot;&gt;Haasbot&lt;/a&gt;, the oldest trading bot for cryptocurrencies.&lt;/p&gt;
+
+&lt;h4 id=&quot;requirements-to-run-the-windows-haasbot&quot;&gt;Requirements to run the Windows HaasBot:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dual-core processor (1,6GHz and up), better quad-core&lt;/li&gt;
+  &lt;li&gt;Minimum 2 GB free RAM&lt;/li&gt;
+  &lt;li&gt;Stable internet connection (minimum 1 megabit download)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since virtual machines consume a lot of resources, if you only have one working computer and will want to keep the bot running, there is probably no way to do that on a laptop that you use daily.&lt;/p&gt;
+
+&lt;p&gt;Either use a desktop computer or rent a VPS.&lt;/p&gt;
+
+&lt;h4 id=&quot;cheap-windows-vps&quot;&gt;Cheap Windows VPS?&lt;/h4&gt;
+
+&lt;p&gt;That’s right, you will need Windows for HaasBot. The drawback of Windows, other than that it’s Windows which is awful enough, is that you pay for license. That needs to be priced in when you rent Windows VPS, meaning you get same performance for higher price compared to a Linux VPS.&lt;/p&gt;
+
+&lt;p&gt;Another drawback is that most server owners don’t like anything automatic running on their server. Websites are fine but &lt;em&gt;bots&lt;/em&gt; can do anything, and who has time to check if your bot is malicious or not. That is roughly the point you will get after reading TOS of Windows VPS providers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So, is it actually doable?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After spending a lot of time on LowEndBox, filtering out places that have strict TOS or look shady (meaning they might not have proper Windows license), I got these two Windows VPS providers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://cloud.rockhoster.com/billing/aff.php?aff=42&quot;&gt;RockHoster Windows VPS&lt;/a&gt; - “Premium” plan has KVM virtualized 2 core 40 GB + 2048 MB RAM with Windows 2012 Server. That would make the bare minimum for HaasBot. With annual billing it costs 13.33 USD/month which is good. The RAM might be too low though, and for 4GB RAM the price climbs up to 24 USD per month.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://cheapwindowsvps.com/manage/aff.php?aff=707&quot;&gt;CheapWindowsVPS&lt;/a&gt; has similar plans as Rockhoster above for some 20 USD monthly and above.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://clients.cloudieweb.com/aff.php?aff=75&quot;&gt;CloudieWeb Windows VPS &lt;/a&gt; - 2 core, 48GB, 2048 MB RAM for 16.5 USD monthly in cloud with annual plan. Try a coupon CYBERWEEK to get a discount.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both support bitcoin payments and both should have full Windows license, unlike Ramnode where you can have a Windows VPS but for the license you are fully responsible.&lt;/p&gt;
+
+&lt;h4 id=&quot;linux-vps&quot;&gt;Linux VPS?&lt;/h4&gt;
+
+&lt;p&gt;If you thought about running a VirtualBox or Wine on a Linux VPS you should forget it, it’s against the rules of every VPS provider.&lt;/p&gt;
+
+&lt;p&gt;With &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.haasonline.com/?ref=49&quot;&gt;Haasbot&lt;/a&gt; there is a Linux version too though, albeit obsolete. You can ask for it in the support section of your account.&lt;/p&gt;
+
+&lt;p&gt;You can try and install it on some cloud hosting which is billed per hour. If it works fine, go and get a cheaper Linux bot-friendly VPS with annual billing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cloud billed hourly:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://m.do.co/c/5ae2def361e8&quot;&gt;DigitalOcean&lt;/a&gt; - Get first 10 USD free with &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://m.do.co/c/5ae2def361e8&quot;&gt;this referral link&lt;/a&gt;. You will surely be OK with the 40-bucks-a-month plan but with an empty Linux droplet you can try and stretch it with the cheaper 20-dollar one. Remember to watch the expenses though, you only get first 10 USD for free and if you are not a company, Digital Ocean will add up tax to the default hourly pricing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.vultr.com/freetrial/?ref=6873921&quot;&gt;Vultr&lt;/a&gt; has the same pricing as Digital Ocean. However with Vultr you can can whole month of 40-dollar cloud VPS for free with their free trial. &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.vultr.com/freetrial/?ref=6873921&quot;&gt;Click here to get 50 USD free credit&lt;/a&gt;. Vultr also does Windows in cloud but you see they are quite expensive:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/bot/vultr.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/bot/vultr.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classic Linux VPS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://my.hostus.us/aff.php?aff=1064&quot;&gt;HostUs Linux VPS&lt;/a&gt; - 2 core, 3GB RAM with Windows 7 Pro and annual billing the cost is 25 USD per month. That’s the safest choice.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://cloud.rockhoster.com/billing/aff.php?aff=42&quot;&gt;RockHoster Linux VPS &lt;/a&gt; - 3 core, 2048 MB RAM, 70 GB disk and unlimited bandwidth for about 10 USD monthly with annual billing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://clients.cloudieweb.com/aff.php?aff=75&quot;&gt;CloudieWeb Linux VPS &lt;/a&gt; - 2 core, 2048 MB RAM for 16.5 USD monthly in cloud with annual plan. You should be able to apply a coupon CYBERWEEK to get a discount.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All of them accept bitcoin payments and have no mention about BTC trading bots in their TOS.&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Feb 2016 00:00:00 +0100</pubDate>
         <link>https://www.altcointrading.net/automated-trading/</link>
@@ -341,17 +505,66 @@
         <title>Altcoin trading charts</title>
         <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/ethbtc-feb.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/ethbtc-feb.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;h4 id=&quot;bitcoinwisdomcomhttpbitcoinwisdomcom&quot;&gt;&lt;a href=&quot;http://bitcoinwisdom.com&quot;&gt;Bitcoinwisdom.com&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bitcoinwisdom.com&quot;&gt;Bitcoinwisdom.com&lt;/a&gt; was superb but sadly, it is no longer updated. No new markets, no new exchanges. Not so good for altcoins.&lt;/p&gt;
+
+&lt;h4 id=&quot;cryptocoinchartsinfohttpwwwcryptocoinchartsinfo&quot;&gt;&lt;a href=&quot;http://www.cryptocoincharts.info&quot;&gt;Cryptocoincharts.info&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Good source of information. &lt;a href=&quot;http://www.cryptocoincharts.info&quot;&gt;Cryptocoincharts.info&lt;/a&gt; keep stats for most traded pairs, most growing pairs and situation at many &lt;a href=&quot;http://www.cryptocoincharts.info/markets/info&quot;&gt;exchanges&lt;/a&gt; (even at smaller ones). The charts could be better though.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/ccc.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/ccc.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cryptowatchhttpcryptowatch&quot;&gt;&lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt; is probably best option nowadays, especially if you are looking for better charts with &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://poloniex.com&quot;&gt;Poloniex&lt;/a&gt; data. (See links to charts &lt;a href=&quot;#better-poloniex-charts&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;You can select your indicators in settings, drawing tools are available too (see image below).&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/cwatch.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/cwatch.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;better-poloniex-charts&quot;&gt;Better Poloniex charts&lt;/h4&gt;
+
+&lt;p&gt;Because if you trade altcoins then you probably trade on Poloniex. Charts there are not quite advanced.&lt;/p&gt;
+
+&lt;p&gt;Go for Cryprowatch for better trading charts.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://bitcoinwisdom.com&quot;&gt;Bitcoinwisdom.com&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/ethbtc&quot;&gt;Poloniex Ethereum - ETHBTC&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/xmrbtc&quot;&gt;Poloniex Monero - XMRBTC&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.cryptocoincharts.info&quot;&gt;Cryptocoincharts.info&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/btsbtc&quot;&gt;Poloniex Bitshares - BTSBTC&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/strbtc&quot;&gt;Poloniex Lumens - STRBTC&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/dashbtc&quot;&gt;Poloniex Dash (DarkCoin) - DASHBTC&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/ltcbtc&quot;&gt;Poloniex Litecoin - LTCBTC&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4 id=&quot;tradingviewhttpswwwtradingviewcomchart&quot;&gt;&lt;a href=&quot;https://www.tradingview.com/chart/&quot;&gt;TradingView&lt;/a&gt;&lt;/h4&gt;
+
+&lt;figure class=&quot;chart&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/tradingview-eth.png&quot; alt=&quot;Altcoin Trading TradingView Charts&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;415px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you only want to have a quick look or if you are up to some more advanced technical analysis (whether or not it may work with altcoins), do try &lt;a href=&quot;https://www.tradingview.com/chart/&quot;&gt;TradingView&lt;/a&gt;. They don’t have a selection of exchanges and marketplaces like &lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt; but their charting is a bit more advanced.&lt;/p&gt;
+
+&lt;p&gt;You can access the charts without registration by typing the code of the pair into the input field in upper left corner. They have XMRBTC of &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://hitbtc.com/?ref_id=569e7b123be70&quot;&gt;HitBTC&lt;/a&gt; and ETHXBT of &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://kraken.com&quot;&gt;Kraken&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;chart&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/tradingview-xmr.png&quot; alt=&quot;Altcoin Trading TradingView Charts&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;415px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;
+
+&lt;p&gt;No MAID or FCT, actually no Poloniex charting.&lt;/p&gt;
+
+&lt;h4 id=&quot;ethereum-charts&quot;&gt;Ethereum Charts&lt;/h4&gt;
+
+&lt;p&gt;If you are trading the pump now, you will be interested in this. &lt;a href=&quot;http://ethereumwisdom.com/&quot;&gt;EthereumWisdom&lt;/a&gt; has Karken, Poloniex, Gatecoin and BitTrex ETH markets.&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Jan 2016 00:00:00 +0100</pubDate>
         <link>https://www.altcointrading.net/altcoin-trading-charts/</link>

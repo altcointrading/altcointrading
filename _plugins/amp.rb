@@ -33,6 +33,41 @@ end
 
 Liquid::Template.register_tag('thumb', Jekyll::ThumbTag)
 
+module Jekyll
+  class TVChartTag < Liquid::Tag
+
+    def initialize(tag_name, markup, tokens)
+      super
+      @class = 'th'
+      @src = ''
+      @alt = 'Altcoin Trading Charts'
+      @caption = nil #not required
+
+      if markup =~ /(\S.*\s+)?(page.chart\[\d\])(\s+page.image_alt\[\d\])?(\s+page.image_caption\[\d\])?/
+        @class = $1
+        @src = $2
+        @alt = $3
+        @caption = $4
+      end
+    end
+
+    def render(context)
+      @class = Liquid::Template.parse("{{ #{@class} }}").render(context)
+      @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
+      @alt = Liquid::Template.parse("{{ #{@alt} }}").render(context)
+      @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
+      @site_url = Liquid::Template.parse("{{ site.image_url }}").render(context)
+
+      amp = "<figure class=\"chart\"><amp-img itemprop=\"image\" "
+      amp += "src=\"#{@site_url}#{@src}\" alt=\"Altcoin Trading TradingView Charts\" layout=\"responsive\" width=\"700px\" height=\"415px\"  >"
+      amp += "</amp-img></figure>"
+#480 854
+    end
+  end
+end
+
+Liquid::Template.register_tag('tvchart', Jekyll::TVChartTag)
+
 
 
 

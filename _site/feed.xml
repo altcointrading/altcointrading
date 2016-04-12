@@ -5,9 +5,97 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Mar 2016 15:09:48 +0200</pubDate>
-    <lastBuildDate>Tue, 29 Mar 2016 15:09:48 +0200</lastBuildDate>
+    <pubDate>Tue, 12 Apr 2016 11:26:55 +0200</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2016 11:26:55 +0200</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>Buy and sell altcoins in one day</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/xmr1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/xmr1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: XMRBTC Chart - Cryptowat.ch&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;So you are looking into daytrading with altcoins, basically. You want to buy an altcoin and sell it the same day for profit in bitcoin or fiat. Is that possible?&lt;/p&gt;
+
+&lt;p&gt;The answer is yes, indeed, but not if market moves rapidly.&lt;/p&gt;
+
+&lt;h4 id=&quot;go-for-less-profits&quot;&gt;Go for less profits&lt;/h4&gt;
+
+&lt;p&gt;If you want to close your position as soon as possible and with profit, don’t look for huge profit from every single trade. You might find them by coincidence but don’t think twice before jumping into them.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you see a breakout on bitcoin markets, you check TA indicators and might decide to buy. Your order probably will fill and you will make it safely to your sell at the top.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you see parabolic growth on altcoin markets chances are it was a single order pump or so. If you buy there might not be enough sellers if nobody trades long term with that particular altcoin (which depends). If you leave that order there it might first execute on the way back down.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of the altcoin markets are simply not deep enough yet. If you are okay with holding that coin for a few months you might try things but remember that altcoin prices are very volatile. You will either go with your money in an altcoin stuck for a few months or you sell that altcoin and lose big.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Daytrading is the legwork and it also means you don’t want to hold that altcoin.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;daytrading-example&quot;&gt;Daytrading example&lt;/h4&gt;
+
+&lt;p&gt;Let’s see the title picture for illustration. It shows the recent altcoin crash that indeed also affected Monero. Monero started dropping with what looked like a single sell-off.
+Opportunity for a daytrader?&lt;/p&gt;
+
+&lt;p&gt;Monero has relatively mid to big trade volume and quite some stable audience. A daytrader should buy as low as possible right after the dip (that was at about 0.00275 BTC) and wait for correction. Correction topped at some 0.00321 BTC.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Buy: 1 BTC, at 0.00275 ~ 362 XMR after fee 0.25%
+Sell: 362 XMR, at 0.00321  ~ 1.16144 BTC after fee 0.25%
+Profit ~ 16%
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;where-to-do-this&quot;&gt;Where to do this?&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Smaller alctoins&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You need a good altcoin exchange with real liquidity. That’s only &lt;a href=&quot;https://poloniex.com&quot;&gt;Poloniex&lt;/a&gt; these days.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Poloniex is a full altcoin exchange, you won’t be able to withdraw cash directly though they do have tether. Tether is altcoin that is pegged to USD and linked to a bank account. To obtain a tether address one has to go through full identity verification. &lt;a href=&quot;https://tether.to&quot;&gt;More here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A major drawback to Poloniex is that their website is not stable enough for the fact that everyone trades there. During major sales or volatility it &lt;em&gt;will be&lt;/em&gt; down or at least cranky.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For these cases it might be better to also have account on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://bleutrade.com/sign_up/25600&quot;&gt;Bleutrade&lt;/a&gt;, a much smaller exchange that also trades many relatively unknown altcoins.&lt;/p&gt;
+
+&lt;p&gt;Apart from these two indeed, do have accounts on &lt;a href=&quot;https://btc-e.com&quot;&gt;BTC-e&lt;/a&gt; which also has some smaller coins like NMC or PPC. You can withdraw fiat on BTC-e - they support services like &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://perfectmoney.is/?ref=7622697&quot;&gt;PerfectMoney&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://perfectmoney.is/?ref=7622697&quot;&gt;&lt;img alt=&quot;Perfect Money&quot; src=&quot;/img/ads/pm2.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Big names only&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are only interested in Ether trading, go for the classics.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://kraken.com&quot;&gt;Kraken&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Their volumes are best, for charts head over to &lt;a href=&quot;https://cryptowat.ch/&quot;&gt;Cryptowatch&lt;/a&gt;. These two will also let you withdraw fiat.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;Up&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Apr 2016 00:00:00 +0200</pubDate>
+        <link>https://www.altcointrading.net/daytrading/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/daytrading/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Value of Altcoins: Money and Tokens</title>
@@ -17,7 +105,9 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;So apart from the fact that every altcoin is &lt;em&gt;new paradigm, totally&lt;/em&gt; and &lt;em&gt;absolutely something new&lt;/em&gt;, there are two, well - actually three categories of altcoins out there.&lt;/p&gt;
+&lt;p&gt;What is it all about altcoins in 2016? It looks like a big thing starting out. Sure, markets are volatile and risky but in spite of that interesting things are on the horizon.&lt;/p&gt;
+
+&lt;p&gt;So, to the altcoin value, apart from the fact that every altcoin is &lt;em&gt;new paradigm, totally&lt;/em&gt; and &lt;em&gt;absolutely something new&lt;/em&gt;, there are two, well - actually three categories of altcoins out there.&lt;/p&gt;
 
 &lt;h3 id=&quot;types-of-altcoins&quot;&gt;Types of altcoins&lt;/h3&gt;
 
@@ -279,7 +369,7 @@
   &lt;/li&gt;
   &lt;li&gt;Fees
     &lt;ul&gt;
-      &lt;li&gt;Trade: 0.2% flat.&lt;/li&gt;
+      &lt;li&gt;Trade: 0.15%/0.25% maker-taker.&lt;/li&gt;
       &lt;li&gt;Deposit: All crypto &lt;strong&gt;free&lt;/strong&gt;.&lt;/li&gt;
       &lt;li&gt;Withdrawal: All crypto &lt;strong&gt;free&lt;/strong&gt;.&lt;/li&gt;
     &lt;/ul&gt;
@@ -291,7 +381,7 @@
 
 &lt;h3 id=&quot;other-big-names&quot;&gt;Other Big Names&lt;/h3&gt;
 
-&lt;h4 id=&quot;bitfinex-ltc&quot;&gt;Bitfinex (LTC)&lt;/h4&gt;
+&lt;h4 id=&quot;bitfinex&quot;&gt;Bitfinex&lt;/h4&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/exchanges/bitfinex.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/exchanges/bitfinex.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -300,11 +390,13 @@
 &lt;p&gt;On &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; bitcoin deposits and withdrawals go without verification. You need 6 confirmations to use the deposit.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Liquidity: &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; has a LTCBTC market but it is markedly smaller than the BTCUSD one: &lt;a href=&quot;http://coinmarketcap.com/exchanges/bitfinex/&quot;&gt;see on coinmarketcap&lt;/a&gt;.
-    &lt;ul&gt;
-      &lt;li&gt;Try &lt;a href=&quot;#btc-e&quot;&gt;BTC-e&lt;/a&gt; or &lt;a href=&quot;#bit-x&quot;&gt;Bit-x&lt;/a&gt; for bigger LTCBTC markets.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Liquidity: &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; launched Ethereum market even though they are not ETH supporters. The market has been lively since, it is not a bad choice to go there if you are of all altcoins only interested in ETH.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; also has a LTCBTC market but it is markedly smaller than the BTCUSD one: &lt;a href=&quot;http://coinmarketcap.com/exchanges/bitfinex/&quot;&gt;see on coinmarketcap&lt;/a&gt;.
+  * Try &lt;a href=&quot;#btc-e&quot;&gt;BTC-e&lt;/a&gt; or &lt;a href=&quot;#bit-x&quot;&gt;Bit-x&lt;/a&gt; for bigger LTCBTC markets.&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Policies: Might require AML/KYC if you are from certain locations or trade a lot of money. So be careful and don’t put too much in one basket. Also, when they get hacked, they are not liable for losses.&lt;/p&gt;
   &lt;/li&gt;
